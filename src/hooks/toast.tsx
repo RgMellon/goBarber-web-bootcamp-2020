@@ -1,4 +1,5 @@
-import React, { useContext, createContext, useCallback, useState } from 'react';
+import React, { createContext, useContext, useCallback, useState } from 'react';
+
 import { uuid } from 'uuidv4';
 import ToastContainer from '../components/ToastContainer';
 
@@ -9,9 +10,9 @@ interface ToastContextData {
 
 export interface ToastMessage {
   id: string;
-  title: string;
   description?: string;
-  type?: 'info' | 'error' | 'success';
+  type?: 'success' | 'error' | 'info';
+  title: string;
 }
 
 const Toast = createContext<ToastContextData>({} as ToastContextData);
@@ -20,23 +21,20 @@ const ToastProvider: React.FC = ({ children }) => {
   const [messages, setMessages] = useState<ToastMessage[]>([]);
 
   const addToast = useCallback(
-    ({ type, title, description }: Omit<ToastMessage, 'id'>) => {
-      const id = uuid();
-
-      const toast = {
-        id,
-        type,
+    ({ title, description, type }: Omit<ToastMessage, 'id'>) => {
+      const message = {
+        id: uuid(),
         title,
         description,
+        type,
       };
 
-      setMessages(oldMessage => [...oldMessage, toast]);
+      setMessages(state => [...state, message]);
     },
-
     [],
   );
 
-  const removeToast = useCallback(id => {
+  const removeToast = useCallback((id: string) => {
     setMessages(state => state.filter(message => message.id !== id));
   }, []);
 
@@ -52,10 +50,10 @@ function useToast(): ToastContextData {
   const context = useContext(Toast);
 
   if (!context) {
-    throw Error('useToast must be used within an ToastProvider');
+    throw Error('useAuth must be used within an AuthProvider');
   }
 
   return context;
 }
 
-export { useToast, ToastProvider };
+export { ToastProvider, useToast };

@@ -8,6 +8,7 @@
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 - [Preview do projeto](#-preview-do-projeto)
+- [Funcionalidades](#-Funcionalidades)
 - [Backend](#Backend)
 
 ---

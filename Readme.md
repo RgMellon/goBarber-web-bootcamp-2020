@@ -8,7 +8,7 @@
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 - [Preview do projeto](#-preview-do-projeto)
-- [Download apk](#-download-do-apk)
+- [Backend](#Backend)
 
 ---
 
@@ -37,12 +37,12 @@ segue alguns prints do projeto
 
 O projeto foi feito utilizando das seguines tecnologias
 
-- React Native
-- Spotify Api
+- ReactJs
 - Styled-Components
 - react-native-app-auth
 - Context api
-- React-native-track-player
+- Typescript
+- date-fns
 
 ---
 
@@ -50,22 +50,23 @@ O projeto foi feito utilizando das seguines tecnologias
 
 ```bash
   #clonar o repositorio
-  $ git clone https://github.com/RgMellon/Beat.git
+  $ git clone https://github.com/RgMellon/goBarber-web-bootcamp-2020.git
 
   #entrar na pasta do projeto
-  $ cd beat
+  $ cd goBarber-web-bootcamp-2020
 
   #instalar as dependencias
   $ npm install
 
   #executar o projeto
-  $ npm run android
+  $ npm run start
 ```
 
 ---
 
-## 🤳 Download do apk
+## Backend
 
-> [Download APK](https://drive.google.com/file/d/1akKaiMDsmZ6Kv-SHd-8R5Km4GTk0bhS4/view?usp=sharing)
+O projeto em especifico, depende do backend que pode ser encontrado aqui
+[Backend GoBarber](https://github.com/RgMellon/goBarber-node-bootcamp-2020)
 
 Desenvolvido com ♥ por Renan Melo

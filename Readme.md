@@ -14,7 +14,7 @@
 
 ## 🎧 Sobre
 
-o Projet **Beat** partiu de uma iniciativa ao ver o desafio criado pelo pessoal da [FeraCode](https://feracode.com/pt/inicio/)
+o Projeto **GoBarber** é uma das aplicações feitas no bootcamp da rocketseat
 
 ---
 
@@ -23,13 +23,12 @@ o Projet **Beat** partiu de uma iniciativa ao ver o desafio criado pelo pessoal 
 segue alguns prints do projeto
 
 <div>
-  <img style="margin: 5px" alt="login" src="https://i.imgur.com/5uGUpXZ.jpg" width="200">
+  <img style="margin: 5px" alt="login" src="https://i.imgur.com/X9kp10w.png" width="400">
 
-  <img style="margin: 5px" alt="playlist" src="https://i.imgur.com/tJoZwHt.jpg" width="200">
+  <img style="margin: 5px" alt="register" src="https://i.imgur.com/4FI16Vt.png" width="400">
 
-  <img style="margin: 5px" alt="detail" src="https://i.imgur.com/jcAYsBf.jpg" width="200">
+  <img style="margin: 5px" alt="dashboard" src="https://i.imgur.com/QkI8yki.png" width="400">
 
-  <img style="margin: 5px" alt="artist" src="https://i.imgur.com/B4PRp2C.jpg" width="200">
 </div>
 
 ---

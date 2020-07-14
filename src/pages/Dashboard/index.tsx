@@ -7,6 +7,7 @@ import { isToday, format, parseISO, isAfter } from 'date-fns';
 
 import { FiPower, FiClock } from 'react-icons/fi';
 
+import { Link } from 'react-router-dom';
 import {
   Container,
   Header,
@@ -146,7 +147,10 @@ const Dashboard: React.FC = () => {
             <img src={user.avatar_url} alt={user.name} />
             <div>
               <span> Bem vindo, </span>
-              <strong>{user.name}</strong>
+
+              <strong>
+                <Link to="/profile">{user.name}</Link>
+              </strong>
             </div>
           </Profile>
 

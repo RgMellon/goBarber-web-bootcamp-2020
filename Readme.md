@@ -64,6 +64,20 @@ O projeto foi feito utilizando das seguines tecnologias
 
 ---
 
+## 💻 Funcionalidades
+
+- O usuário pode fazer login
+
+- O usuário pode se cadastrar
+
+- O usuário tem a opção de recuperar senha, clicando em esqueci minha senha
+
+- O usuário pode listar todos os appointments, podendo navegar no calendario.
+
+- O usuário pode editar seu perfil
+
+- O usuário pode trocar sua foto
+
 ## Backend
 
 O projeto em especifico, depende do backend que pode ser encontrado aqui
